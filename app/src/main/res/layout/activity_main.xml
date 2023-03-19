@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="250dp"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginTop="100dp"
+       android:layout_centerHorizontal="true"
+       android:layout_marginBottom="10dp"
+       android:id="@+id/layout1">
+
+
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="100dp"
+           android:layout_weight="1"
+           android:id="@+id/btn1"
+           android:background="#A55E61"
+           android:textColor="#fff"
+           android:textSize="20sp"
+           android:layout_marginRight="10dp"
+           android:text="台南市TBike"/>
+
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="100dp"
+           android:layout_weight="1"
+           android:id="@+id/btn2"
+           android:background="#FF4D72B1"
+           android:textColor="#fff"
+           android:textSize="20sp"
+           android:text="新北市公車"/>
+
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/layout1"
+        android:id="@+id/layout2">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:id="@+id/btn3"
+            android:background="#5EA562"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_marginRight="10dp"
+            android:text="台鐵資訊"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:id="@+id/btn4"
+            android:background="#D5A356"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:text="全台空氣品質"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/layout2"
+        android:id="@+id/layout3">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:id="@+id/btn5"
+            android:background="#CF13C5"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_marginRight="10dp"
+            android:text="美食"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:id="@+id/btn6"
+            android:background="#03A9F4"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:text="記帳"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
